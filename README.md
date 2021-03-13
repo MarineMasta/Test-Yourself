@@ -33,7 +33,7 @@ THEN I can save my initials and my score
 
 # Final Product Screenshot
 
-![](https://github.com/MarineMasta/Test-Yourself/blob/main/assets/images/Screenshot.png?raw=true "Screenshot")
+![](https://github.com/MarineMasta/Test-Yourself/blob/master/assets/images/Screenshot.PNG "Screenshot")
 
 # Link
 
