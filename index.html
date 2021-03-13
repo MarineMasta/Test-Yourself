@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+  <script src="assets/js/script.js"></script>
+
+  <title>Marine's JS Quiz</title>
+
+</head>
+
+<div id="controls">
+  <div id="info">
+    <button id="scores" href="">View High Scores</button>
+    <div id="timer"><p>Time: <span id="time">0</span></p></div>
+  </div>
+</div>
+  
+
+<div id="positionWrapper">
+  <section id="intro">
+    <h1>JavaScript Coding Quiz</h1>
+    <p>Try to answer the following JavaScript-related questions within the time limit. <br/>
+      Keep in mind that incorrect answers will penalize your score/time by ten seconds.<br/><br/>
+      You have 70 seconds to answer 7 questions.
+    </p>
+    <button>Let's Go!</button>
+
+  </section>
+
+  <section id="quizHolder" class="hide">
+    <p id="title"></p>
+    <!-- Buttons to accept question values-->
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <div id="scoreIndicator" class="invisible">
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
+  <section id="finish" class="hide">
+    <h1>All Done</h1>
+    <p>Your final score is&nbsp;<span id="score"></span></p>
+    <div id="records">
+      <p>Enter your initials: </p><input id="initials" type="text"> <button>Submit</button>
+    </div>
+    <div id="errorIndicator" class="invisible">
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
+  <section id="highScores" class="hide">
+    <h1>High Scores</h1>
+    <div>
+
+    </div>
+    <button id="reset">Go Back</button> <button id="clearScores">Clear Highscores</button>
+  </section>
+</div>
+ 
+
+
+
+<body>
+  
+</body>
+</html>
